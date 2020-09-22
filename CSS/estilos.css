@@ -1,13 +1,38 @@
 
+
 .titulo{
   text-align: center;
-  color:rgb(11, 11, 92);
+  color:white;
+  font-style: italic;
+  background:#0A5460;
+  width: auto;
+  padding: 20px;
+  margin-left: auto;
+  
 
 }
+.tabla {
+  margin-left:380px;
+  font-size: medium;
+  font-style: normal;
+  text-align: center;
+  background :#73BECC;
+  
+}
 
+.ListaPalabras{
+  color:white;
+  background:#0A5460;
+  width: auto;
+  height: 30px;
+  margin: 20px;    
+  padding:100px;
+  
+}
 
 body {
-    background-color: #C3E8EE
+    background-color:white;
+    
   }
 
 
