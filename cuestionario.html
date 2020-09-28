@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>cuestionario</title>
+   <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1 class="titulo">Cuestionario</h1>
+    <p id="indice">El objetivo de este cuestionario es poder aclarar algunos  coneptos relacionados con la materia de programacion web</p>
+        <nav>
+          <ul>
+            <li><a href="index.html">Sopa de letras</a></li>
+            <li><a href="video.html">Video introduccion y definicion de palabras </a></li>
+            <li><a href="cuestionario.html">cuestionario</a></li>
+          </ul>
+        </nav>
+    <div class="caja">
+      <h3>Ingrese sus datos</h3>
+      <label form="nombre">Nombre:</label>
+      <input name="nombre" type="text" value="" size="40" maxlength="10" pattern="[A-Za-z]{3}" 
+      placeholder="Nombre completo">
+      <br>
+      <br>
+      <label form="nombre">Documento:</label>
+      <input name="nombre" type="text" value=""  size="40" maxlength="10" pattern="[A-Za-z]{3}" 
+      placeholder="Documento">
+      <br>
+      <br>
+      <label form="programas">programa academico:</label>
+      <select name="programas">
+      <option value="ingenieria">Ingenieria en sistemas</option>
+      <option value="derecho">Derecho</option>
+      <option value="contaduria">Contaduria Publica</option>
+      <option value="Administracion">Administracion de empresas</option>
+      </select>
+      <br>
+      <br>
+      <label form="email">email:</label>
+            <input type="email" name="email" autocomplete="off">
+      <br>
+      <br>
+      <div class="cuestionario" >
+        <h5 id=letras>1-¿Cuál es el lenguaje específico para aplicar estilos de presentación a nuestras páginas web?</h5>
+        <input type="radio" name="web">Javascript
+        <br>
+        <input type="radio" name="web">Flash
+        <br>
+        <input type="radio" name="web">CSS
+        <br><br>
+        <h5 id=letras>2-¿Qué es HTML?</h5>
+        <input type="radio" name="web">Lenguaje de programación para estilos de nuestra pagina
+        <br>
+        <input type="radio" name="web">hace referencia al lenguaje para la elaboración de páginas web
+        <br>
+        <input type="radio" name="web">protocolo de  comunicacion
+        <br><br>
+        <code id=letras> 3- En css para que es utilizado font-family </h5><br><br>
+          <textarea name="message" rows="5" cols="50">
+            </textarea>
+          <br>
+        <h5 id=letras>4-La etiqueta &lt;p&gt; &lt;/p&gt;  se emplea para:</h5>
+        <input type="radio" name="web">Marcar párrafos de texto
+        <br>
+        <input type="radio" name="web">Poner un tipo de letra a nuestro texto
+        <br>
+        <input type="radio" name="web">Aumentar la sangría del texto
+        <br>
+        <input type="radio" name="web">Ninguna de las anteriores
+        <br><br>
+        <h5 id=letras>5-la etiqueta &lt;!DOCTYPE html&gt; es utilizada para</h5>
+        <input type="radio" name="web">Abrir nuestro documento html
+        <br>
+        <input type="radio" name="web">Cerrar nuestro documento html
+        <br>
+        <input type="radio" name="web">Declarar el tipo de documento
+        <br>
+        <input type="radio" name="web">Ninguna de las anteriores
+        <br><br>
+        <h5 id=letras> 6- cual es la etiqueta para invocar nuestra hoja de estilos</h5>
+        <input type="radio" name="web">&lt;link/&gt; 
+        <br>
+        <input type="radio" name="web">&lt;head&gt; 
+        <br>
+        <input type="radio" name="web">&lt;style&gt; 
+        <br>
+        <input type="radio" name="web">todas las anteriores
+        <br><br>
+        <h5 id=letras>7-para que es utilizada la etqueta &lt;div&gt; </h5>
+        <input type="radio" name="web">Crear sesiones o agrupar contenidos
+        <br>
+        <input type="radio" name="web">Dividir nuestro documento html
+        <br>
+        <input type="radio" name="web">Invocar imágenes
+        <br>
+        <input type="radio" name="web">Todas las anteriores
+        <br><br>
+        <h5 id=letras>8-para insertar una imagen en una página web se emplea la etiqueta</h5>
+        <input type="radio" name="web">&lt;img&gt; &lt;/img&gt; 
+        <br>
+        <input type="radio" name="web">&lt;a&gt; &lt;/ag&gt; 
+        <br>
+        <input type="radio" name="web">&lt;image&gt; &lt;/image&gt; 
+        <br>
+        <input type="radio" name="web">Ninguna de las anteriores
+        <br><br>
+        <h5 id=letras>9-la etiqueta &lt;td&gt; &lt;/td&gt; define</h5>
+        <input type="radio" name="web">Una fila de una tabla
+        <br>
+        <input type="radio" name="web">Una celda de una tabla
+        <br>
+        <input type="radio" name="web">Una celda que es encabezado de una tabla 
+        <br>
+        <input type="radio" name="web">Ninguna de las anteriores
+        <br><br>
+        <h5 id=letras>10- como es la forma de documentar texto en nuestro documento html</h5>
+        <input type="radio" name="web">--
+        <br>
+        <input type="radio" name="web">&lt;!----&gt;
+        <br>
+        <input type="radio" name="web">	//
+        <br>
+        <input type="radio" name="web">/* */
+      </div>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
