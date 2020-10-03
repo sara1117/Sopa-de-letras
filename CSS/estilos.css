@@ -1,7 +1,43 @@
 
 
+p:hover {   
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #8ac007;
+ } 
+
+ h5:hover{
+  font-weight: bold;
+  color:#dcf1a9;
+ }
+ h1:hover{
+  font-weight: bold;
+  color:#dcf1a9;
+ }
+
+ dt:hover{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #dcf1a9;}
+
+ dd:hover{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #dcf1a9;
+}
+ 
+ul:hover{
+  font-weight: bold;
+  color:#dcf1a9;
+}
+
+  
+
 .titulo{
-  text-align: center;
+
   color:white;
   font-style: italic;
   background:#0A5460;
@@ -11,6 +47,7 @@
   
 
 }
+
 .tabla {
   margin-left:380px;
   font-size: medium;
@@ -41,23 +78,26 @@
 
 
 .cuestionario{
-   padding: 50px;
-  color: #fff;
-  padding-bottom: auto;
-  position: relative;
-  border-radius: 4px;
-  background:#078396;
+  padding: 50px;
+ color: #fff;
+ padding-bottom: auto;
+ position: relative;
+ border-radius: 4px;
+ background:#078396;
+}
+.bannerInicio{
+  
+  width: 400px;
 
 }
-#letras{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 14px;
-  color:white;
+.nav-link{
+  color: #fff;
 }
-#indice{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 14px;
-  color: black;
+
+.letras{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 16px;
+ color:white;
 }
 
 hr {
@@ -65,9 +105,7 @@ hr {
   border-color:black;
 }
 
-.respuesta{
-  color:red;
-}
+
 
 body {
  
